@@ -11,7 +11,7 @@
 const types = ['primary', 'info', 'success', 'warning', 'danger'];
 const positions = ['top-right', 'top-left', 'bottom-right', 'bottom-left']
 const alerError = {'type': 0, 'position': 1}
-let zindex = 1;
+let zindex = 1000;
 min_seconds = 800;
 
 const style = document.createElement('style');
