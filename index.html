@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Notifications</title>
+    <style> button { cursor: pointer; padding: 5px; margin: 5px;} </style>
+</head>
+
+<body>
+    <br><br><br><br><br><br><br><br><br><br>
+    <center>
+        <button onclick="showAlert('danger', 'Top left message',4000,'top-left')">Top-Left</button>
+        <button onclick="showAlert('primary', 'Bottom left message',4000,'bottom-left')">Bottom-Left</button>
+        <button onclick="showAlert('info', 'Bottom right message',4000,'bottom-right')">Bottom-Right</button>
+        <button onclick="showAlert('success', 'Top right message',4000)">Top-Right</button>
+        <br><br>
+        <button onclick="showRandomAlert('Random message alert')">Random</button>
+    </center>
+
+    <script src="alert.js"></script>
+</body>
+
+</html>
